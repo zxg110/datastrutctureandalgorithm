@@ -3,7 +3,7 @@ package com.zxg.algorithm;
 /**
  * 输入n,求n！（用递归的方式实现）
  */
-public class Algorithm_1 {
+public class AlgorithmPractice_1 {
     public static void main(String[] args) {
         int n = 5;
         System.out.print(fac(n));

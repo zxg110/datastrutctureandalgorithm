@@ -6,7 +6,7 @@ import java.util.List;
 /**
  * 有1，2,3,4个数字，能组成多少个互不相同且无重复数字的三位数？都是多少
  */
-public class Algorithm_2 {
+public class AlgorithmPractice_2 {
     public static void main(String[] args) {
         List<String> result = getNumber();
         for (String s : result) {

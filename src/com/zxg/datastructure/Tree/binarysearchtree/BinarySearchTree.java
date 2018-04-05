@@ -13,7 +13,7 @@ import com.zxg.datastructure.Tree.base.BinaryTree;
 public class BinarySearchTree<T extends Comparable> extends BinaryTree<T> implements BinarySearchTreeInterface<T>{
     public static final int CREATE_BY_PRE_IN_ORDER = 1;
     public static final int CREATE_BY_POST_IN_ORDER = 2;
-    BinaryNode<T> root;
+    protected BinaryNode<T> root;
 
     public BinarySearchTree(T[] pList, T[] inList, int flag) {
         if (flag == CREATE_BY_PRE_IN_ORDER) {

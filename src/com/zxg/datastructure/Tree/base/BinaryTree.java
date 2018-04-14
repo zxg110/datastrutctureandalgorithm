@@ -250,6 +250,22 @@ public class BinaryTree<T extends Comparable> implements BinaryTreeInterface<T> 
         return nodeDataList;
     }
 
+    public BinaryNode<T> findLowestCommonAncestor(BinaryNode<T> root,BinaryNode<T> node_1,BinaryNode<T> node_2){
+        if(root == null){
+            return null;
+        }
+        if(root.data == node_1.data || root.data == node_2.data){
+            return root;
+        }
+
+        BinaryNode<T> left = findLowestCommonAncestor((BinaryNode)root.left,node_1,node_2);
+        BinaryNode<T> right = findLowestCommonAncestor((BinaryNode)root.right,node_1,node_2);
+        if(left != null && right!=null){
+            return root;
+        }
+        return left != null?left:right;
+    }
+
     /**
      * 自定义比较器
      */

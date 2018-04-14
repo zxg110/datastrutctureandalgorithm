@@ -50,7 +50,7 @@ public class AVLTree<T extends Comparable> extends BinarySearchTree<T>{
         }
         return node;
     }
-    
+
     @Override
     public void delete(T data) {
 

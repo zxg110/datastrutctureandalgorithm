@@ -4,6 +4,10 @@ package com.zxg.datastructure.Tree.binarysearchtree;
 import com.zxg.datastructure.Tree.base.BinaryNode;
 import com.zxg.datastructure.Tree.base.BinaryTree;
 
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Stack;
+
 /**
  * Created by zengxiangge on 2018-3-15.
  * 搜索二叉树：对于树的每个结点T（T可能是父结点）,它的左子树中所有项的值小T中的值，
@@ -349,6 +353,28 @@ public class BinarySearchTree<T extends Comparable> extends BinaryTree<T> implem
         }
 
         return node;
+    }
 
+    /**
+     * 算法题：
+     * 输入一棵二叉搜索树，将该二叉搜索树转换成一个排序的双向链表。
+     * 要求不能创建任何新的结点，只能调整树中结点指针的指向。
+     * @param node
+     * @return
+     */
+    private BinaryNode<T> treeToDoubleLinkList(BinaryNode<T> node) {
+        List<T> nodeDataList = new ArrayList<T>();
+        Stack<BinaryNode<T>> stack = new Stack<BinaryNode<T>>();
+        while (node != null || !stack.isEmpty()) {
+            while (node != null) {
+                stack.push(node);
+                node = (BinaryNode<T>) node.left;
+            }
+            if (!stack.empty()) {
+                node = stack.pop();
+                stack.push((BinaryNode) node.right);
+            }
+        }
+        return node;
     }
 }

@@ -109,9 +109,9 @@ public class BinaryTree<T extends Comparable> implements BinaryTreeInterface<T> 
                 node = (BinaryNode<T>) node.left;
             }
             if (!stack.empty()) {
-                stack.pop();
+                node = stack.pop();
                 nodeDataList.add(node.data);
-                stack.push((BinaryNode) node.right);
+                node = (BinaryNode<T>)node.right;
             }
         }
         return nodeDataList;

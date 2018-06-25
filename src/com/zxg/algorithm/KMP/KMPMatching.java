@@ -65,6 +65,7 @@ public class KMPMatching {
         }
     }
 
+    //debug
     public void debugNextArr(){
         calculateNextArr();
         System.out.println("next arr:"+ Arrays.toString(next));

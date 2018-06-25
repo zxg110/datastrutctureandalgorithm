@@ -5,11 +5,42 @@ package com.zxg.datastructure.linklist;
  */
 
 public class SingleLink<T> {
-    Node head = null;
+    public Node head = null;
+
+    /**
+     * 构造方法，方便创建
+     */
+    public SingleLink(T[] data) {
+        Node next = new Node(data[0]);
+        for (int i = 0; i < data.length; i++) {
+            Node temp = new Node(data[i]);
+            if (i == 0) {
+                head = temp;
+                next = temp;
+            } else {
+                next.next = temp;
+                next = temp;
+            }
+        }
+    }
+
+    public SingleLink(){}
 
     public void addNode(T data) {
         Node node = new Node(data);
         if (head == null) {
+            head = node;
+            return;
+        }
+        Node temp = head;
+        while (temp.next != null) {
+            temp = temp.next;
+        }
+        temp.next = node;
+    }
+
+    public void addNode(Node node){
+        if(head == null){
             head = node;
             return;
         }
@@ -97,7 +128,35 @@ public class SingleLink<T> {
             i++;
         }
         return false;
+    }
 
+    /**
+     * 将targetNode插入到orinialNode节点后
+     */
+    public boolean insert(Node orinialNode, Node targetNode) {
+        if (!containNode(orinialNode))
+            return false;
+        Node temp = orinialNode.next;
+        orinialNode.next = targetNode;
+        targetNode.next = temp;
+        return true;
+    }
+
+    public boolean containNode(Node node) {
+        if (node == null)
+            throw new RuntimeException("arg node is null!");
+        if (head == null)
+            return false;
+        Node temp = head;
+        if (head.equals(node))
+            return true;
+        while (temp.next != null) {
+            temp = temp.next;
+            if (head.equals(node)) {
+                return true;
+            }
+        }
+        return false;
     }
 
     public int length() {
@@ -115,10 +174,10 @@ public class SingleLink<T> {
     public void printLink() {
         Node temp = head;
         while (temp.next != null) {
-            System.out.println("data:" + temp.data);
+            System.out.print("[" + temp.data + "]->");
             temp = temp.next;
         }
-        System.out.println("data:" + temp.data);
+        System.out.print("[" + temp.data + "]");
     }
 
     public void reverseIteratively() {
@@ -138,10 +197,10 @@ public class SingleLink<T> {
         return;
     }
 
-    public void printLinkReversely(){
-        if(length() == 0) return;
-        if(length() == 1){
-            System.out.printf("data:"+head.data+"\n");
+    public void printLinkReversely() {
+        if (length() == 0) return;
+        if (length() == 1) {
+            System.out.printf("data:" + head.data + "\n");
             return;
         }
         printLinkReversely(head);
@@ -171,13 +230,17 @@ public class SingleLink<T> {
         return false;
     }
 
-    class Node {
-        T data;
-        Node next;
+    public class Node {
+        public T data;
+        public Node next;
 
         public Node(T data) {
             this.data = data;
+        }
 
+        @Override
+        public boolean equals(Object obj) {
+            return this.data == ((Node) obj).data;
         }
     }
 

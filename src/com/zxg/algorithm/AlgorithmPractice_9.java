@@ -1,6 +1,4 @@
-package com.zxg.algorithm.sort;
-
-import com.zxg.datastructure.Tree.base.Tree;
+package com.zxg.algorithm;
 
 import java.util.Stack;
 

@@ -181,6 +181,30 @@ public class HeadDoubleILinkedList<T> implements ILinkedList<T> {
         return str + ")";
     }
 
+    public void reverseIteratively() {
+        if (head == null || tail == null)
+            return;
+        DNode<T> pre = null;
+        DNode<T> next = null;
+        DNode<T> newFirst = null;
+        DNode<T> newLast = null;
+        for (DNode<T> node = head; node != null; node = node.prev) {
+            pre = node.prev;
+            next = node.next;
+            if (node.prev == null) {
+                newLast = node;
+            }
+            if (node.next == null) {
+                newFirst = node;
+            }
+            node.next = pre;
+            node.prev = next;
+        }
+        head = newFirst;
+        tail = newLast;
+
+    }
+
     class DNode<T> {
 
         public T data;

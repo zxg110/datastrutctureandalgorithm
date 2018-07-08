@@ -24,7 +24,8 @@ public class SingleLink<T> {
         }
     }
 
-    public SingleLink(){}
+    public SingleLink() {
+    }
 
     public void addNode(T data) {
         Node node = new Node(data);
@@ -39,8 +40,8 @@ public class SingleLink<T> {
         temp.next = node;
     }
 
-    public void addNode(Node node){
-        if(head == null){
+    public void addNode(Node node) {
+        if (head == null) {
             head = node;
             return;
         }
@@ -180,21 +181,22 @@ public class SingleLink<T> {
         System.out.print("[" + temp.data + "]");
     }
 
+    /**
+     * 链表反转
+     */
     public void reverseIteratively() {
-        Node pReversedHead = head;
-        Node pNode = head;
-        Node pPrev = null;
-        while (pNode != null) {
-            Node pNext = pNode.next;
-            if (pNext == null) {
-                pReversedHead = pNode;
-            }
-            pNode.next = pPrev;
-            pPrev = pNode;
-            pNode = pNext;
+        if (head == null)
+            return;
+        Node cur = head;
+        Node next = null;
+        Node pre = null;
+        while (cur != null) {
+            next = cur.next;
+            cur.next = pre;
+            pre = cur;
+            cur = next;
         }
-        this.head = pReversedHead;
-        return;
+        head = cur;
     }
 
     public void printLinkReversely() {

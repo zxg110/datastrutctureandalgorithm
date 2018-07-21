@@ -76,8 +76,8 @@ public class AlgorithmPractice_9 {
             return null;
         }
         TreeNode pLastNodeInList = null;
-//        pLastNodeInList = convertNode(treeRootNode, pLastNodeInList);
-        pLastNodeInList = convertNodeByStack(treeRootNode);
+        pLastNodeInList = convertNode(treeRootNode, pLastNodeInList);
+//        pLastNodeInList = convertNodeByStack(treeRootNode);
 
         TreeNode pHead = pLastNodeInList;
         while (pLastNodeInList != null && pLastNodeInList.left != null) {

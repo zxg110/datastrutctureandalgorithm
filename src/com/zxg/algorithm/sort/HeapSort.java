@@ -8,7 +8,8 @@ public class HeapSort extends Sort {
     public int[] sort(int[] originalData) {
         //构造大顶堆
         for (int i = originalData.length / 2 - 1; i >= 0; i--) {
-            //从第一个非叶子结点从下至上，从右至左调整结构
+            //i初始值是最后一个非叶结点
+            //从最后非叶子结点从下至上，从右至左调整结构
             adjustHeap(originalData, i, originalData.length);
         }
         //2.调整堆结构+交换堆顶元素与末尾元素
@@ -26,17 +27,24 @@ public class HeapSort extends Sort {
      */
     private void adjustHeap(int[] arr, int i, int length) {
         int temp = arr[i];
+        //k的递增原因是处理完一个父节点，要接着处理相邻的父节点
         for (int k = i * 2 + 1; k < length; k = k * 2 + 1) {
+            //k为i结点的左结点 k+1为右结点
+            //找出两个子节点中较大的用k记录
             if (k + 1 < length && arr[k] < arr[k + 1]) {
                 k++;
             }
+            //与父节点比较
             if (arr[k] > temp) {
+                //若k结点数值（左右孩子中的一个）比父节点大，则将父节点直接赋值，不用交换
                 arr[i] = arr[k];
+                //将i赋值成k，与5处相对应
                 i = k;
             } else {
                 break;
             }
         }
+        //5处 赋值
         arr[i] = temp;
     }
 

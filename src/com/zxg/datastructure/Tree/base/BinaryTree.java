@@ -276,4 +276,33 @@ public class BinaryTree<T extends Comparable> implements BinaryTreeInterface<T> 
             return o1.compareTo(o2);
         }
     }
+
+    /**
+     * 求解距离最远的两个节点的距离
+     * @return
+     * example:
+     *      a
+     *     / \
+     *    b   c
+     */
+    public int maxLength(){
+        return maxLength(root);
+    }
+    private static int  maxLen;
+    public int maxLength(BinaryNode node){
+        if(node == null){
+            return 0;
+        }
+        //左子树高度，左子树只有一个节点b,高度为1
+        int leftHigh = maxLength((BinaryNode) node.left);
+        //右子树高度，右子树只有一个节点c，高度1
+        int rightHigh = maxLength((BinaryNode)node.right);
+        int rootHigh = Math.max(leftHigh,rightHigh)+1;
+        //最远距离b到c=左子树高度加右子树高度=2
+
+        if(leftHigh+rightHigh>maxLen){
+            maxLen = leftHigh+rightHigh;
+        }
+        return rootHigh;
+    }
 }

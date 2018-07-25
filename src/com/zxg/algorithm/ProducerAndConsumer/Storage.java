@@ -4,7 +4,7 @@ import java.util.LinkedList;
 
 public class Storage {
     // 仓库最大存储量
-    private final int MAX_SIZE = 100;
+    private final int MAX_SIZE = 1;
 
     // 仓库存储的载体
     private LinkedList<Object> list = new LinkedList<Object>();
@@ -27,8 +27,12 @@ public class Storage {
             list.add(new Object());
 
             System.out.println("【" + producer + "】：生产了一个产品\t【现仓储量为】:" + list.size());
-
-            list.notifyAll();
+            /**
+             * notifyAll()唤起全部阻塞线程，包括生产和消费线程，被唤起的线程又要共同抢占锁，
+             * notify()唤醒一个线程,有可能唤起生产线程，有可能是消费线程
+             */
+            //list.notifyAll();
+            list.notify();
         }
     }
 
@@ -48,7 +52,7 @@ public class Storage {
 
             list.remove();
             System.out.println("【" + consumer + "】：消费了一个产品\t【现仓储量为】:" + list.size());
-            list.notifyAll();
+            list.notify();
         }
     }
 
@@ -62,5 +66,26 @@ public class Storage {
 
     public int getMAX_SIZE() {
         return MAX_SIZE;
+    }
+
+    public static void main(String[] args) {
+        Storage storage = new Storage();
+
+        for(int i=0;i<=5;i++){
+            new Thread(new Runnable() {
+                @Override
+                public void run() {
+                    storage.consume("consume thread");
+                }
+            }).start();;
+        }
+        for(int i=0;i<=5;i++){
+            new Thread(new Runnable() {
+                @Override
+                public void run() {
+                    storage.produce("produce thread");
+                }
+            }).start();
+        }
     }
 }

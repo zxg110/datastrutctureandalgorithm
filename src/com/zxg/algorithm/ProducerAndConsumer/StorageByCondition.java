@@ -56,7 +56,7 @@ public class StorageByCondition {
         while (list.size() == 0) {
             System.out.println("仓库已空，【" + consumer + "】： 暂时不能执行消费任务!");
             try {
-                // 由于条件不满足，消费阻塞
+                // 由于条件不满足，消费阻塞，阻塞时会释放锁
                 empty.await();
             } catch (InterruptedException e) {
                 e.printStackTrace();
@@ -65,6 +65,7 @@ public class StorageByCondition {
 
         list.remove();
         System.out.println("【" + consumer + "】：消费了一个产品\t【现仓储量为】:" + list.size());
+        //唤起一个生产者线程
         full.signalAll();
 
         // 释放锁

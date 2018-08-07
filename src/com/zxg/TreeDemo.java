@@ -2,8 +2,12 @@ package com.zxg;
 
 import com.zxg.datastructure.Tree.base.BinaryNode;
 
+/**
+ *
+ */
 public class TreeDemo {
     public static int maxLen;
+
     public static void main(String[] args) {
 
         Node root = new Node("root");
@@ -19,48 +23,52 @@ public class TreeDemo {
 //        root.left.left.left = new Node("left2");
         maxLength(root);
 //        System.out.println("maxLen:"+maxLen);
-        System.out.println("maxSize:"+maxSize(root));
+        System.out.println("maxSize:" + maxSize(root));
 
     }
 
     /**
+     * 求二叉树距离最远的两个子节点的距离
      *
      * @param node
      * @return
      */
-    public static int maxLength(Node node){
-        if(node == null){
+    public static int maxLength(Node node) {
+        if (node == null) {
             return 0;
         }
         int leftHigh = maxLength(node.left);
         int rightHigh = maxLength(node.right);
-        int rootHigh = Math.max(leftHigh,rightHigh)+1;
-        if(leftHigh+rightHigh>maxLen){
-            maxLen = leftHigh+rightHigh;
+        int rootHigh = Math.max(leftHigh, rightHigh) + 1;
+        if (leftHigh + rightHigh > maxLen) {
+            maxLen = leftHigh + rightHigh;
         }
         return rootHigh;
     }
 
-    public static int maxSize(Node root){
+    public static int maxSize(Node root) {
         int left = size(root.left);
         int right = size(root.right);
-        return Math.max(left,right);
+        return Math.max(left, right);
 
     }
+
     public static int size(Node subtree) {
         if (subtree == null)
             return 0;
         else {
-            return size( subtree.left) + 1 + size(subtree.right);
+            return size(subtree.left) + 1 + size(subtree.right);
         }
     }
 }
+
 class Node {
     public Node left;
     public Node right;
     public String value;
-    public int size =1;
-    Node(String value){
+    public int size = 1;
+
+    Node(String value) {
         this.value = value;
     }
 }

@@ -1,4 +1,4 @@
-package com.zxg.algorithm.HanoiTower;
+package com.zxg.algorithm.DynamicProgram.HanoiTower;
 
 
 public class HanoiTower {
@@ -22,7 +22,7 @@ public class HanoiTower {
             //什么也不做
         }else {
             //递推公式：H(n)=H(n-1) + 1 + H(n-1)
-            //将n-1个圆盘从x移动到z,y为中转柱
+            //将n-1个圆盘从x(原始柱)移动到z(目标是中间柱),y为中转柱(剩下一根柱子为辅助)
             hanoi(n-1,x,z,y); //----------------------->解出n-1层汉诺塔:H(n-1)
 
             //移动最大圆盘到目的柱

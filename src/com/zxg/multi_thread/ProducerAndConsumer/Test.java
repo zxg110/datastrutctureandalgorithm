@@ -1,4 +1,4 @@
-package com.zxg.algorithm.ProducerAndConsumer;
+package com.zxg.multi_thread.ProducerAndConsumer;
 
 public class Test {
     public static void main(String[] args)

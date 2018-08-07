@@ -1,4 +1,4 @@
-package com.zxg.algorithm.KMP;
+package com.zxg.algorithm.StringDeal.KMP;
 
 /**
  * 字符串匹配的普通算法：在目标字串中找到与匹配字串相等的字串，若找到

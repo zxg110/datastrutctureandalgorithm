@@ -1,4 +1,4 @@
-package com.zxg.algorithm.LongestPalindromel;
+package com.zxg.algorithm.StringDeal.LongestPalindromel;
 
 /**
  * 比较常规的一种思路，以每一个字符为起点，向后组装所有的子串，判断每一个子串是否是对称的
@@ -8,7 +8,7 @@ public class Solution_1 {
 
     public static String longestPalindrome(String orignalString) {
         int maxLength = 0;
-        String finalString = null;
+        String finalString = String.valueOf(orignalString.charAt(0));
         int length = orignalString.length();
         for (int i = 0; i < orignalString.length(); i++) {
             for (int j = i + 1; j < length; j++) {
@@ -35,6 +35,6 @@ public class Solution_1 {
     }
 
     public static void main(String[] args) {
-        System.out.println(longestPalindrome("babcbabcbaccba"));
+        System.out.println(longestPalindrome("ab"));
     }
 }

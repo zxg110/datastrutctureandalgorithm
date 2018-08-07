@@ -1,4 +1,4 @@
-package com.zxg.algorithm.KMP;
+package com.zxg.algorithm.StringDeal.KMP;
 
 import java.util.Arrays;
 

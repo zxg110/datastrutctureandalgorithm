@@ -1,4 +1,4 @@
-package com.zxg.algorithm.PackageQuestion;
+package com.zxg.algorithm.DynamicProgram.PackageQuestion;
 
 /**
  * 01背包问题 将重量为(w1,w2,w3,w4,w5...)、价值为(v1,v2,v3,v4,v5...)的物品放入容量为N的背包中，怎样放价值最大
@@ -26,7 +26,11 @@ public class Package_01 {
      */
     public static int maxValue(int[] weight, int[] value, int capacity) {
         int weightLen = weight.length;
-        int valueLen = capacity + 1;//列值长度加1，是因为最后一列要保证重量值为lenColumn
+        /**
+         * 列值长度加1，是因为最后一列要保证重量值为lenColumn
+         * 而weightLen不用加的原因是weightLen=0时，代表放入前0个，这里的0是下表i，数组下表是从0开始的
+         */
+        int valueLen = capacity + 1;
         int maxValue = 0;
         int[][] v = new int[weightLen][valueLen];
         for (int i = 0; i < weightLen; i++) {

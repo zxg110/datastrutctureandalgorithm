@@ -1,5 +1,7 @@
 package com.zxg.algorithm.LeetCode.PrimaryPractice;
 
+import java.util.List;
+
 /**
  * 输入：(2 -> 4 -> 3) + (5 -> 6 -> 4)
  * 输出：7 -> 0 -> 8
@@ -33,6 +35,9 @@ public class LeetCode_2 {
     }
 
     private ListNode convertToNode(int number) {
+        if (number == 0) {
+            return new ListNode(0);
+        }
         ListNode head = new ListNode(-1);
         ListNode curNode = head;
         while (number != 0) {
@@ -50,13 +55,19 @@ public class LeetCode_2 {
     }
 
     public static void main(String[] args) {
-        ListNode node1 = new ListNode(3);
-        ListNode node2 = new ListNode(5);
+        ListNode node1 = new ListNode(9);
+        ListNode node2 = new ListNode(1);
         ListNode node3 = new ListNode(9);
-        node1.next = node2;
         node2.next = node3;
+        ListNode node_4 = new ListNode(9);
+        ListNode node_5 = new ListNode(9);
+        ListNode node_6 = new ListNode(9);
+        node3.next = node_4;
+        node_4.next = node_5;
+        node_5.next = node_6;
         LeetCode_2 leetCode_2 = new LeetCode_2();
-        leetCode_2.addTwoNumbers(node1, node2);
+        ListNode result = leetCode_2.addTwoNumbers(node1, node2);
+        System.out.println(result.toString());
     }
 
 }

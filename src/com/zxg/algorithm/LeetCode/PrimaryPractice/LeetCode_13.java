@@ -43,6 +43,6 @@ public class LeetCode_13 {
 
     public static void main(String[] args) {
         LeetCode_13 leetCode = new LeetCode_13();
-        System.out.println(leetCode.romanToInt("MCMXCIV"));
+        System.out.println(leetCode.romanToInt("CCCLVI"));
     }
 }

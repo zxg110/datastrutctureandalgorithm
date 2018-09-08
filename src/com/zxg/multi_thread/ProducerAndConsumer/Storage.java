@@ -2,6 +2,10 @@ package com.zxg.multi_thread.ProducerAndConsumer;
 
 import java.util.LinkedList;
 
+/**
+ * 最坏情况下，notify()唤起的都是同类线程（消费唤起的都是消费，生产唤起的都是生产）可能造成假死
+ * 所以线程都在wait()，解决办法就是采用notifyAll()
+ */
 public class Storage {
     // 仓库最大存储量
     private final int MAX_SIZE = 1;

@@ -2,7 +2,6 @@ package com.zxg.multi_thread;
 
 public class CountDemo {
 
-
     static class MyThread extends Thread{
         private static int count = 5;
         public MyThread(String name){

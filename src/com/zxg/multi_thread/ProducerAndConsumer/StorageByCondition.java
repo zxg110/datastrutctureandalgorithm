@@ -65,8 +65,8 @@ public class StorageByCondition {
 
         list.remove();
         System.out.println("【" + consumer + "】：消费了一个产品\t【现仓储量为】:" + list.size());
-        //唤起一个生产者线程
-        full.signalAll();
+        //唤起一个生产者线程 这里实现了多路通知，只唤起生产者线程
+        full.signal();
 
         // 释放锁
         lock.unlock();

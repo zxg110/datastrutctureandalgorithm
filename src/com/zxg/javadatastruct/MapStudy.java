@@ -1,9 +1,6 @@
 package com.zxg.javadatastruct;
 
-import java.util.Map;
-import java.util.NavigableMap;
-import java.util.SortedMap;
-import java.util.TreeMap;
+import java.util.*;
 
 /**
  * Java Map Interface Study
@@ -11,7 +8,9 @@ import java.util.TreeMap;
 public class MapStudy {
     public static void main(String[] args) {
         MapStudy study = new MapStudy();
-        study.studyNavigableMap();
+//        study.studyNavigableMap();
+//        study.studyWeakHashMap();
+        study.studyTreeMap();
     }
 
     /**
@@ -47,6 +46,45 @@ public class MapStudy {
         for (Map.Entry<String, Integer> entry : descendMap.entrySet()) {
             System.out.println("descendMap key:" + entry.getKey() + ",descendMap value:" + entry.getValue());
         }
+
+    }
+
+    /**
+     * 弱引用map，entry随时可能被回收
+     * http://www.importnew.com/23182.html
+     */
+    public void studyWeakHashMap() {
+        WeakHashMap<String, Integer> weakHashMap = new WeakHashMap<>();
+        weakHashMap.put("first", 1);
+        weakHashMap.put("second", 2);
+        weakHashMap.put("third", 3);
+        for (Map.Entry<String, Integer> entry : weakHashMap.entrySet()) {
+            System.out.println("entry:" + entry.toString());
+        }
+    }
+
+    /**
+     * TreeMap 有序map
+     * 输出时按照key有序输出
+     * 为什么迭代时输出有序参考:http://www.importnew.com/19074.html
+     */
+    public void studyTreeMap() {
+        SortedMap<String, Object> sortedMap = new TreeMap<String, Object>();
+        sortedMap.put("1b", "a");
+        sortedMap.put("2", "b");
+        sortedMap.put("4b", "d");
+        sortedMap.put("3", "c");
+        sortedMap.put("2b", "d");
+        for (Map.Entry<String, Object> entry : sortedMap.entrySet()) {
+            System.out.println(" sort entry:" + entry.toString());
+        }
+    }
+
+    /**
+     * https://blog.csdn.net/losingcarryjie/article/details/79491179
+     */
+    public void studyLinkedHashMap(){
+
 
     }
 

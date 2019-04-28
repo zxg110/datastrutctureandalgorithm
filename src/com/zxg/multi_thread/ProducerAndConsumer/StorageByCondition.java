@@ -28,7 +28,7 @@ public class StorageByCondition {
         while (list.size() == MAX_SIZE) {
             System.out.println("仓库已满，【" + producer + "】： 暂时不能执行生产任务!");
             try {
-                // 由于条件不满足，生产阻塞
+                // 由于条件不满足，生产阻塞，调用await()会释放锁
                 full.await();
             } catch (InterruptedException e) {
                 e.printStackTrace();
@@ -39,7 +39,7 @@ public class StorageByCondition {
         list.add(new Object());
 
         System.out.println("【" + producer + "】：生产了一个产品\t【现仓储量为】:" + list.size());
-
+        //唤醒全部消费者线程
         empty.signalAll();
 
         // 释放锁
@@ -56,7 +56,7 @@ public class StorageByCondition {
         while (list.size() == 0) {
             System.out.println("仓库已空，【" + consumer + "】： 暂时不能执行消费任务!");
             try {
-                // 由于条件不满足，消费阻塞，阻塞时会释放锁
+                // 由于条mainCond件不满足，消费阻塞，阻塞时会释放锁
                 empty.await();
             } catch (InterruptedException e) {
                 e.printStackTrace();

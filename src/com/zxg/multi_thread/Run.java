@@ -1,6 +1,8 @@
 package com.zxg.multi_thread;
 
 
+import jdk.nashorn.api.scripting.JSObject;
+
 public class Run {
 
     public static void main(String[] args) throws InterruptedException {

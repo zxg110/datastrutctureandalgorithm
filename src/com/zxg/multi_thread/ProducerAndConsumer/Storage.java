@@ -47,7 +47,10 @@ public class Storage {
             while (list.size() == 0) {
                 System.out.println("仓库已空，【" + consumer + "】： 暂时不能执行消费任务!");
                 try {
-                    // 由于条件不满足，消费阻塞
+                    /**
+                     * 生产条件不足，wait()中会做两件事
+                     * 1、阻塞该线程 2、释放锁对象以便其他线程获取锁(这点很重要)
+                     */
                     list.wait();
                 } catch (InterruptedException e) {
                     e.printStackTrace();
@@ -56,6 +59,10 @@ public class Storage {
 
             list.remove();
             System.out.println("【" + consumer + "】：消费了一个产品\t【现仓储量为】:" + list.size());
+            /**
+             * 生产结束，调用notify()随记唤醒一个线程，但是notify()不会释放锁。
+             * 所以尽量在使用了notify/notifyAll() 后立即退出临界区，以唤醒其他线程
+             */
             list.notify();
         }
     }
@@ -75,15 +82,16 @@ public class Storage {
     public static void main(String[] args) {
         Storage storage = new Storage();
 
-        for(int i=0;i<=5;i++){
+        for (int i = 0; i <= 5; i++) {
             new Thread(new Runnable() {
                 @Override
                 public void run() {
                     storage.consume("consume thread");
                 }
-            }).start();;
+            }).start();
+            ;
         }
-        for(int i=0;i<=5;i++){
+        for (int i = 0; i <= 5; i++) {
             new Thread(new Runnable() {
                 @Override
                 public void run() {

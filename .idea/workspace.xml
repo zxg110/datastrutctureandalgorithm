@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b568c520-2a03-4b3b-9e0c-a05c6ca5c48e" name="Default" comment="update tree">
-      <change afterPath="$PROJECT_DIR$/src/com/zxg/lambda/LambdaStudy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zxg/encryption/AesDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zxg/encryption/RsaDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zxg/multi_thread/SerialByCondition/ConditionApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zxg/multi_thread/SerialByCondition/ConditionService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zxg/javadatastruct/MapStudy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zxg/javadatastruct/MapStudy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zxg/multi_thread/ProducerAndConsumer/Storage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zxg/multi_thread/ProducerAndConsumer/Storage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/zxg/multi_thread/ProducerAndConsumer/StorageByCondition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zxg/multi_thread/ProducerAndConsumer/StorageByCondition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zxg/multi_thread/Run.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zxg/multi_thread/Run.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zxg/multi_thread/SerialDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zxg/multi_thread/SerialDemo.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,56 +25,57 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
-      <file leaf-file-name="APIDemo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/zxg/multi_thread/ReentrantLock/APIDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="651">
-              <caret line="31" column="39" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AsyncRunnableQueue.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/zxg/multi_thread/AsyncRunnableQueue.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="777">
-              <caret line="41" column="42" selection-start-line="41" selection-start-column="42" selection-end-line="41" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Run.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Run.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/zxg/multi_thread/Run.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+            <state relative-caret-position="105">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JSObject.class" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/jre/lib/ext/nashorn.jar!/jdk/nashorn/api/scripting/JSObject.class">
+      <file leaf-file-name="AesDemo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/zxg/encryption/AesDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+            <state relative-caret-position="397">
+              <caret line="21" column="61" lean-forward="true" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="61" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SingleLink.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/zxg/datastructure/linklist/SingleLink.java">
+      <file leaf-file-name="RsaDemo.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/zxg/encryption/RsaDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="735">
-              <caret line="35" column="22" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
+            <state relative-caret-position="377">
+              <caret line="26" column="23" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HeadDoubleILinkedList.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/zxg/datastructure/linklist/HeadDoubleILinkedList.java">
+      <file leaf-file-name="Base64.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/src.zip!/java/util/Base64.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+            <state relative-caret-position="209">
+              <caret line="313" column="22" selection-start-line="313" selection-start-column="22" selection-end-line="313" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SerialThreadDemo_2.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/zxg/multi_thread/SerialThreadDemo_2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="8" column="29" lean-forward="true" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+              <folding>
+                <element signature="e#259#260#0" expanded="true" />
+                <element signature="e#296#297#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -81,41 +83,50 @@
       <file leaf-file-name="StorageByCondition.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/zxg/multi_thread/ProducerAndConsumer/StorageByCondition.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="566">
-              <caret line="31" column="19" lean-forward="true" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
+            <state relative-caret-position="236">
+              <caret line="31" column="47" selection-start-line="31" selection-start-column="47" selection-end-line="31" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SerialDemo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/zxg/multi_thread/SerialDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="99">
+              <caret line="9" column="34" lean-forward="true" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
               <folding>
-                <element signature="e#371#379#0" expanded="true" />
+                <element signature="e#749#750#0" expanded="true" />
+                <element signature="e#781#782#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Test.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/zxg/multi_thread/ProducerAndConsumer/Test.java">
+      <file leaf-file-name="ConditionService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/zxg/multi_thread/SerialByCondition/ConditionService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Storage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/zxg/multi_thread/ProducerAndConsumer/Storage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="50" column="42" lean-forward="true" selection-start-line="50" selection-start-column="42" selection-end-line="50" selection-end-column="42" />
+            <state relative-caret-position="-444">
+              <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
               <folding>
-                <element signature="e#2171#2172#0" expanded="true" />
-                <element signature="e#2244#2245#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AsyncRunnableQueueTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/zxg/multi_thread/AsyncRunnableQueueTest.java">
+      <file leaf-file-name="ConditionApp.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/zxg/multi_thread/SerialByCondition/ConditionApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
+            <state relative-caret-position="462">
+              <caret line="22" column="10" lean-forward="true" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CountDemo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/zxg/multi_thread/CountDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-108">
               <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
@@ -153,6 +164,7 @@
       <find>interrupt</find>
       <find>observer</find>
       <find>Condition</find>
+      <find>执行</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/src/com/zxg</dir>
@@ -165,13 +177,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/zxg/algorithm/practice/ConcurrentHashMapDemo.java" />
-        <option value="$PROJECT_DIR$/src/com/zxg/multi_thread/SerialThreadDemo_2.java" />
-        <option value="$PROJECT_DIR$/src/com/zxg/algorithm/ArithmerticPractice_12.java" />
-        <option value="$PROJECT_DIR$/src/com/zxg/algorithm/ArithmerticPractice_13.java" />
-        <option value="$PROJECT_DIR$/src/com/zxg/datastructure/Tree/base/BinaryTree.java" />
-        <option value="$PROJECT_DIR$/src/com/zxg/FingerOffer/practice_1.java" />
-        <option value="$PROJECT_DIR$/src/com/zxg/FingerOffer/practice_2.java" />
         <option value="$PROJECT_DIR$/src/com/zxg/FingerOffer/Practice_3.java" />
         <option value="$PROJECT_DIR$/src/com/zxg/FingerOffer/Practice_4.java" />
         <option value="$PROJECT_DIR$/src/com/zxg/multi_thread/ReentrantLockDemo.java" />
@@ -215,7 +220,14 @@
         <option value="$PROJECT_DIR$/src/com/zxg/lambda/LambdaStudy.java" />
         <option value="$PROJECT_DIR$/src/com/zxg/multi_thread/Run.java" />
         <option value="$PROJECT_DIR$/src/com/zxg/multi_thread/ProducerAndConsumer/Storage.java" />
+        <option value="$PROJECT_DIR$/src/com/zxg/encryption/AesDemo.java" />
         <option value="$PROJECT_DIR$/src/com/zxg/multi_thread/ProducerAndConsumer/StorageByCondition.java" />
+        <option value="$PROJECT_DIR$/src/com/zxg/multi_thread/SerialDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/zxg/multi_thread/SerialByCondition.java" />
+        <option value="$PROJECT_DIR$/src/com/zxg/multi_thread/ConditionApp.java" />
+        <option value="$PROJECT_DIR$/src/com/zxg/multi_thread/SerialByCondition/SerialByCondition.java" />
+        <option value="$PROJECT_DIR$/src/com/zxg/multi_thread/SerialByCondition/ConditionService.java" />
+        <option value="$PROJECT_DIR$/src/com/zxg/encryption/RsaDemo.java" />
       </list>
     </option>
   </component>
@@ -228,10 +240,11 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="-1920" />
-    <option name="width" value="1920" />
-    <option name="height" value="1080" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-363" />
+    <option name="y" value="-1057" />
+    <option name="width" value="2048" />
+    <option name="height" value="1057" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -272,16 +285,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="zxg" type="462c0819:PsiDirectoryNode" />
-              <item name="datastructure" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="datastrutctureandalgorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="datastrutctureandalgorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="zxg" type="462c0819:PsiDirectoryNode" />
-              <item name="datastructure" type="462c0819:PsiDirectoryNode" />
-              <item name="linklist" type="462c0819:PsiDirectoryNode" />
+              <item name="encryption" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="datastrutctureandalgorithm" type="b2602c69:ProjectViewProjectNode" />
@@ -290,15 +294,6 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="zxg" type="462c0819:PsiDirectoryNode" />
               <item name="multi_thread" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="datastrutctureandalgorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="datastrutctureandalgorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="zxg" type="462c0819:PsiDirectoryNode" />
-              <item name="multi_thread" type="462c0819:PsiDirectoryNode" />
-              <item name="ReentrantLock" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="datastrutctureandalgorithm" type="b2602c69:ProjectViewProjectNode" />
@@ -308,6 +303,15 @@
               <item name="zxg" type="462c0819:PsiDirectoryNode" />
               <item name="multi_thread" type="462c0819:PsiDirectoryNode" />
               <item name="Run.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="datastrutctureandalgorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="datastrutctureandalgorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="zxg" type="462c0819:PsiDirectoryNode" />
+              <item name="multi_thread" type="462c0819:PsiDirectoryNode" />
+              <item name="SerialDemo.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
             <path>
               <item name="datastrutctureandalgorithm" type="b2602c69:ProjectViewProjectNode" />
@@ -322,8 +326,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -361,50 +365,50 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Storage">
+  <component name="RunManager" selected="Application.RsaDemo">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
-    <configuration name="CollectionStudy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zxg.javadatastruct.CollectionStudy" />
+    <configuration name="AesDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zxg.encryption.AesDemo" />
       <module name="datastrutctureandalgorithm" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zxg.javadatastruct.*" />
+          <option name="PATTERN" value="com.zxg.encryption.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="LambdaStudy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zxg.lambda.LambdaStudy" />
+    <configuration name="ConditionApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zxg.multi_thread.SerialByCondition.ConditionApp" />
       <module name="datastrutctureandalgorithm" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zxg.lambda.*" />
+          <option name="PATTERN" value="com.zxg.multi_thread.SerialByCondition.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="LeetCode_35" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zxg.algorithm.LeetCode.PrimaryPractice.LeetCode_35" />
+    <configuration name="RsaDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zxg.encryption.RsaDemo" />
       <module name="datastrutctureandalgorithm" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zxg.algorithm.LeetCode.PrimaryPractice.*" />
+          <option name="PATTERN" value="com.zxg.encryption.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="MapStudy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zxg.javadatastruct.MapStudy" />
+    <configuration name="SerialDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zxg.multi_thread.SerialDemo" />
       <module name="datastrutctureandalgorithm" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zxg.javadatastruct.*" />
+          <option name="PATTERN" value="com.zxg.multi_thread.SerialByCondition.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -462,19 +466,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.LeetCode_35" />
-      <item itemvalue="Application.CollectionStudy" />
-      <item itemvalue="Application.MapStudy" />
-      <item itemvalue="Application.LambdaStudy" />
       <item itemvalue="Application.Storage" />
+      <item itemvalue="Application.AesDemo" />
+      <item itemvalue="Application.SerialDemo" />
+      <item itemvalue="Application.ConditionApp" />
+      <item itemvalue="Application.RsaDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RsaDemo" />
+        <item itemvalue="Application.ConditionApp" />
+        <item itemvalue="Application.SerialDemo" />
+        <item itemvalue="Application.AesDemo" />
         <item itemvalue="Application.Storage" />
-        <item itemvalue="Application.LambdaStudy" />
-        <item itemvalue="Application.MapStudy" />
-        <item itemvalue="Application.CollectionStudy" />
-        <item itemvalue="Application.LeetCode_35" />
       </list>
     </recent_temporary>
   </component>
@@ -576,15 +580,19 @@
       <workItem from="1552974416495" duration="3000" />
       <workItem from="1552993689148" duration="668000" />
       <workItem from="1553070616053" duration="530000" />
-      <workItem from="1556440616003" duration="1486000" />
+      <workItem from="1556440616003" duration="2572000" />
+      <workItem from="1556502806894" duration="1786000" />
+      <workItem from="1556588063271" duration="476000" />
+      <workItem from="1556784690681" duration="4582000" />
+      <workItem from="1556848315647" duration="1898000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="296224000" />
+    <option name="totallyTimeSpent" value="306052000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1920" y="0" width="1920" height="1080" extended-state="0" />
+    <frame x="-363" y="-1057" width="2048" height="1057" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -596,25 +604,25 @@
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5046875" side_tool="true" weight="0.3586207" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4953125" visible="true" weight="0.30346233" />
       <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4953125" visible="true" weight="0.30309498" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3109691" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21435693" />
       <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3296" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4984375" weight="0.3488372" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4984375" weight="0.3488372" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3296" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -659,77 +667,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/ReadWriteLock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1785">
-          <caret line="118" column="25" selection-start-line="118" selection-start-column="25" selection-end-line="118" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/StampedLock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14826">
-          <caret line="745" column="24" selection-start-line="745" selection-start-column="24" selection-end-line="745" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/ReentrantReadWriteLock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19614">
-          <caret line="1000" column="11" selection-start-line="1000" selection-start-column="11" selection-end-line="1000" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zxg/multi_thread/WriteReadLock.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/zxg/multi_thread/ReadAndWriteLock/ReadAndWriteDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="777">
-          <caret line="37" column="22" selection-start-line="37" selection-start-column="22" selection-end-line="37" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/src.zip!/java/io/PrintStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17199">
-          <caret line="819" column="16" selection-start-line="819" selection-start-column="16" selection-end-line="819" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/src.zip!/java/util/Arrays.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1470">
-          <caret line="70" column="13" selection-start-line="70" selection-start-column="13" selection-end-line="70" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/src.zip!/java/lang/System.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9408">
-          <caret line="492" column="30" selection-start-line="492" selection-start-column="30" selection-end-line="492" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zxg/algorithm/ArithmerticPractice_14.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="38" column="16" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zxg/algorithm/LeetCode/PrimaryPractice/LeetCode_35.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zxg/algorithm/backtrack/PackageQuestion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1428">
-          <caret line="68" column="8" selection-start-line="68" selection-start-column="8" selection-end-line="68" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/zxg/algorithm/DynamicProgram/PackageQuestion/Package_01.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2163">
@@ -912,31 +849,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zxg/multi_thread/SerialThreadDemo_2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1050">
-          <caret line="52" column="12" selection-start-line="52" selection-start-column="12" selection-end-line="52" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/zxg/multi_thread/StopThreadDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zxg/multi_thread/SerialDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="66" selection-start-line="10" selection-start-column="66" selection-end-line="10" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zxg/multi_thread/CountDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -975,13 +891,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zxg/multi_thread/ReentrantLock/APIDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="651">
-          <caret line="31" column="39" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/zxg/multi_thread/ProducerAndConsumer/Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -991,29 +900,150 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/zxg/multi_thread/ProducerAndConsumer/Storage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="50" column="42" lean-forward="true" selection-start-line="50" selection-start-column="42" selection-end-line="50" selection-end-column="42" />
+        <state relative-caret-position="1050">
+          <caret line="50" column="42" selection-start-line="50" selection-start-column="42" selection-end-line="50" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/src.zip!/java/util/UUID.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2457">
+          <caret line="140" column="23" selection-start-line="140" selection-start-column="23" selection-end-line="140" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/src.zip!/java/security/Key.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2478">
+          <caret line="141" column="18" selection-start-line="141" selection-start-column="18" selection-end-line="141" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/jre/lib/jce.jar!/javax/crypto/SecretKey.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/jre/lib/jce.jar!/javax/crypto/spec/SecretKeySpec.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/jre/lib/jce.jar!/javax/crypto/KeyGenerator.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4494">
+          <caret line="232" column="20" selection-start-line="232" selection-start-column="20" selection-end-line="232" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zxg/multi_thread/ReentrantLock/APIDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zxg/multi_thread/ReadAndWriteLock/ReadAndWriteDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1281">
+          <caret line="61" column="12" lean-forward="true" selection-start-line="61" selection-start-column="12" selection-end-line="61" selection-end-column="12" />
           <folding>
-            <element signature="e#2171#2172#0" expanded="true" />
-            <element signature="e#2244#2245#0" expanded="true" />
+            <element signature="e#1660#1804#0" expanded="true" />
+            <element signature="e#1803#1804#0" expanded="true" />
+            <element signature="e#1826#1977#0" expanded="true" />
+            <element signature="e#1976#1977#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/zxg/multi_thread/ProducerAndConsumer/StorageByCondition.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="566">
-          <caret line="31" column="19" lean-forward="true" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
+        <state relative-caret-position="236">
+          <caret line="31" column="47" selection-start-line="31" selection-start-column="47" selection-end-line="31" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zxg/multi_thread/SerialDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="9" column="34" lean-forward="true" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
           <folding>
-            <element signature="e#371#379#0" expanded="true" />
+            <element signature="e#749#750#0" expanded="true" />
+            <element signature="e#781#782#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zxg/multi_thread/CountDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-108">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zxg/multi_thread/SerialByCondition/ConditionService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-444">
+          <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zxg/multi_thread/SerialByCondition/ConditionApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="22" column="10" lean-forward="true" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/zxg/multi_thread/Run.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+        <state relative-caret-position="105">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zxg/multi_thread/SerialThreadDemo_2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="29" lean-forward="true" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+          <folding>
+            <element signature="e#259#260#0" expanded="true" />
+            <element signature="e#296#297#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zxg/encryption/AesDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="397">
+          <caret line="21" column="61" lean-forward="true" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/src.zip!/java/util/Base64.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="313" column="22" selection-start-line="313" selection-start-column="22" selection-end-line="313" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zxg/encryption/RsaDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="26" column="23" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

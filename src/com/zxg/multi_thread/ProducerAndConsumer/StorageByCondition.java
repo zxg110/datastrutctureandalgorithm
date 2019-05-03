@@ -29,6 +29,7 @@ public class StorageByCondition {
             System.out.println("仓库已满，【" + producer + "】： 暂时不能执行生产任务!");
             try {
                 // 由于条件不满足，生产阻塞，调用await()会释放锁
+                //并且该线程使用full对象监视器进行等待，持有full对象
                 full.await();
             } catch (InterruptedException e) {
                 e.printStackTrace();

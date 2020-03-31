@@ -9,6 +9,10 @@ import java.security.NoSuchAlgorithmException;
 import java.util.Base64;
 import java.util.UUID;
 
+/**
+ * 加解密输入输出均为字节数组
+ * https://www.jianshu.com/p/a3af4049c8ca
+ */
 public class AesDemo {
 
     public static final String transformation = "AES/CBC/PKCS5Padding";
@@ -21,7 +25,7 @@ public class AesDemo {
             Cipher cipher = Cipher.getInstance(transformation);
             //使用KeyGenerator生成key，参数与获取cipher对象的algorithm必须相同
             KeyGenerator keyGenerator = KeyGenerator.getInstance("AES");
-            //指定生成的密钥长度为128位
+            //指定生成的密钥长度为128位(CBC模式下指定为128位)
             keyGenerator.init(128);
             Key key = keyGenerator.generateKey();
             //这里输出的为16(1字节等于8位)

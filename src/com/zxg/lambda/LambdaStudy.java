@@ -1,7 +1,5 @@
 package com.zxg.lambda;
 
-import java.util.function.Function;
-
 public class LambdaStudy {
 
     public void action(OnActionListener listener){
@@ -29,6 +27,9 @@ public class LambdaStudy {
         };
     }
 
+
+    //函数式接口:只有一个抽象方法
+    @FunctionalInterface
     interface OnActionListener{
         void onAction(String action);
     }

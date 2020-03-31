@@ -1,7 +1,8 @@
 package com.zxg.algorithm.BinarySearch;
 
 /**
- * 折半查找，要求数据源必须有序，这里简单做一个int数组的折半查找
+ * 折半查找(二分查找)，要求数据源必须有序，这里简单做一个int数组的折半查找
+ * https://www.cnblogs.com/wxd0108/p/5465926.html
  */
 public class SimpleBinarySearch {
 

@@ -58,7 +58,6 @@ class SeniorManager extends Manager implements IPayBasis{
 
 }
 
-getAnquanDataByIndex
 
 interface Anquan{
 

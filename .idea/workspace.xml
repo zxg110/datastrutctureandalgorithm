@@ -2,20 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b568c520-2a03-4b3b-9e0c-a05c6ca5c48e" name="Default" comment="update tree">
-      <change afterPath="$PROJECT_DIR$/src/com/zxg/InterfacesDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zxg/algorithm/AlgorithmPractice_16.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zxg/algorithm/ArithmerticPractice_15.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zxg/algorithm/LeetCode/PrimaryPractice/LeetCode_121.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zxg/algorithm/LeetCode/PrimaryPractice/LeetCode_53.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zxg/algorithm/sort/InsertionSortByLinkLedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zxg/future/CompletableFutureTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zxg/future/ForkJoinPoolTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zxg/lambda/FunctionalInterfaceDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zxg/lambda/OptionalDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zxg/algorithm/LeetCode/LinkList/LeetCode_1290.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zxg/algorithm/LeetCode/LinkList/LeetCode_143.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zxg/algorithm/LeetCode/LinkList/LeetCode_147.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zxg/algorithm/LeetCode/LinkList/LeetCode_160.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zxg/algorithm/LeetCode/LinkList/LeetCode_203.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zxg/algorithm/LeetCode/LinkList/LeetCode_83.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zxg/algorithm/LeetCode/LinkList/LeetCode_mianshi24.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zxg/algorithm/LeetCode/LinkList/LeetCode_xx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zxg/algorithm/LeetCode/LinkList/ListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zxg/algorithm/LeetCode/Stack/LeetCode_1047.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zxg/algorithm/LeetCode/Stack/LeetCode_394.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zxg/algorithm/LeetCode/Stack/LeetCode_636.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zxg/algorithm/LeetCode/Stack/LeetCode_682.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zxg/algorithm/LeetCode/Stack/LeetCode_739.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zxg/algorithm/LeetCode/Stack/LeetCode_84.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zxg/algorithm/LeetCode/Stack/LeetCode_901.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zxg/algorithm/LeetCode/Stack/LeetCode_mianshi0304.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zxg/algorithm/LeetCode/Stack/Practice_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zxg/datastructure/Tree/RBTree/RBTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zxg/algorithm/BinarySearch/SimpleBinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zxg/algorithm/BinarySearch/SimpleBinarySearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zxg/encryption/AesDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zxg/encryption/AesDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zxg/lambda/LambdaStudy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zxg/lambda/LambdaStudy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zxg/InterfacesDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zxg/InterfacesDemo.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,108 +39,95 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
-      <file leaf-file-name="AlgorithmPractice_4.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/zxg/algorithm/AlgorithmPractice_4.java">
+      <file leaf-file-name="LeetCode_636.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/zxg/algorithm/LeetCode/Stack/LeetCode_636.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BinarySearchTree.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/zxg/datastructure/Tree/binarysearchtree/BinarySearchTree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-494">
+              <caret line="17" column="50" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BinarySearchTreeInterface.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/zxg/datastructure/Tree/binarysearchtree/BinarySearchTreeInterface.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="84">
+              <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AVLNode.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/zxg/datastructure/Tree/avltree/AVLNode.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="147">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+              <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AlgorithmPractice_5.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/zxg/algorithm/AlgorithmPractice_5.java">
+      <file leaf-file-name="AVLTree.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/zxg/datastructure/Tree/avltree/AVLTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            <state relative-caret-position="311">
+              <caret line="63" column="10" lean-forward="true" selection-start-line="63" selection-start-column="10" selection-end-line="63" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AlgorithmPractice_7.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/zxg/algorithm/AlgorithmPractice_7.java">
+      <file leaf-file-name="RBTree.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/zxg/datastructure/Tree/RBTree/RBTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            <state relative-caret-position="39">
+              <caret line="131" column="16" lean-forward="true" selection-start-line="131" selection-start-column="16" selection-end-line="131" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AlgorithmPractice_14.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/zxg/algorithm/AlgorithmPractice_14.java">
+      <file leaf-file-name="LeetCode_147.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/zxg/algorithm/LeetCode/LinkList/LeetCode_147.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+            <state relative-caret-position="338">
+              <caret line="32" column="17" lean-forward="true" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ArithmerticPractice_12.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/zxg/algorithm/ArithmerticPractice_12.java">
+      <file leaf-file-name="Package_01.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/zxg/algorithm/DynamicProgram/PackageQuestion/Package_01.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            <state relative-caret-position="-66">
+              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ArithmerticPractice_15.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/zxg/algorithm/ArithmerticPractice_15.java">
+      <file leaf-file-name="BinaryNode.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/zxg/datastructure/Tree/base/BinaryNode.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="189">
-              <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="InterfacesDemo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/zxg/InterfacesDemo.java">
+      <file leaf-file-name="Node.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/zxg/datastructure/Tree/base/Node.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="376">
-              <caret line="59" selection-start-line="59" selection-end-line="59" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InsertionSort.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/zxg/algorithm/sort/InsertionSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="23" column="39" lean-forward="true" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
-              <folding>
-                <element signature="e#952#953#0" expanded="true" />
-                <element signature="e#1018#1019#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InsertionSortByLinkLedList.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/zxg/algorithm/sort/InsertionSortByLinkLedList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="4" column="56" selection-start-line="4" selection-start-column="56" selection-end-line="4" selection-end-column="56" />
-              <folding>
-                <element signature="e#131#132#0" expanded="true" />
-                <element signature="e#157#158#0" expanded="true" />
-                <element signature="e#243#244#0" expanded="true" />
-                <element signature="e#276#277#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Sort.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/zxg/algorithm/sort/Sort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+            <state relative-caret-position="168">
+              <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -159,7 +153,6 @@
       <find>`</find>
       <find>数学</find>
       <find>合并</find>
-      <find>反转</find>
       <find>condition</find>
       <find>堆</find>
       <find>ArrayList</find>
@@ -176,6 +169,12 @@
       <find>zejian</find>
       <find>future</find>
       <find>插入</find>
+      <find>reverse</find>
+      <find>LeetCode_xx.</find>
+      <find>链表</find>
+      <find>反转</find>
+      <find>对称</find>
+      <find>插入排序</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -192,27 +191,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/zxg/datastructure/graph/TestClient.java" />
-        <option value="$PROJECT_DIR$/src/com/zxg/algorithm/AlgorithmPractice_14.java" />
-        <option value="$PROJECT_DIR$/src/com/zxg/algorithm/LeetCode/PrimaryPractice/LeetCode_20.java" />
-        <option value="$PROJECT_DIR$/src/com/zxg/algorithm/LeetCode/PrimaryPractice/LeetCode_2.java" />
-        <option value="$PROJECT_DIR$/src/com/zxg/algorithm/LeetCode/PrimaryPractice/LeetCode_3.java" />
-        <option value="$PROJECT_DIR$/src/com/zxg/algorithm/StringDeal/LongestPalindromel/Solution_1.java" />
-        <option value="$PROJECT_DIR$/src/com/zxg/algorithm/LeetCode/PrimaryPractice/LeetCode_7.java" />
-        <option value="$PROJECT_DIR$/src/com/zxg/algorithm/LeetCode/PrimaryPractice/LeetCode_13.java" />
-        <option value="$PROJECT_DIR$/src/com/zxg/algorithm/LeetCode/PrimaryPractice/LeetCode_12.java" />
-        <option value="$PROJECT_DIR$/src/Kotlin/LeetCode_1.kt" />
-        <option value="$PROJECT_DIR$/src/com/zxg/algorithm/LeetCode/PrimaryPractice/LeetCode_17.java" />
-        <option value="$PROJECT_DIR$/src/com/zxg/multi_thread/CountDemo.java" />
-        <option value="$PROJECT_DIR$/src/com/zxg/multi_thread/ReentrantLock/APIDemo.java" />
-        <option value="$PROJECT_DIR$/src/com/zxg/multi_thread/StopThreadDemo.java" />
-        <option value="$PROJECT_DIR$/src/com/zxg/algorithm/backtrack/PackageQuestion.java" />
-        <option value="$PROJECT_DIR$/src/com/zxg/algorithm/LeetCode/PrimaryPractice/LeetCode_9.java" />
-        <option value="$PROJECT_DIR$/src/com/zxg/algorithm/LeetCode/PrimaryPractice/LeetCode_234.java" />
-        <option value="$PROJECT_DIR$/src/com/zxg/algorithm/LeetCode/PrimaryPractice/LeetCode_6.java" />
-        <option value="$PROJECT_DIR$/src/com/zxg/datastructure/exercises/StackPractice_1.java" />
-        <option value="$PROJECT_DIR$/src/com/zxg/algorithm/LeetCode/PrimaryPractice/LeetCode_27.java" />
-        <option value="$PROJECT_DIR$/src/com/zxg/multi_thread/WriteReadLock.java" />
         <option value="$PROJECT_DIR$/src/com/zxg/multi_thread/ReadAndWriteLock/ReadAndWriteDemo.java" />
         <option value="$PROJECT_DIR$/src/com/zxg/algorithm/BinarySearch/BinarySearch.java" />
         <option value="$PROJECT_DIR$/src/com/zxg/algorithm/ArithmerticPractice_14.java" />
@@ -241,8 +219,29 @@
         <option value="$PROJECT_DIR$/src/com/zxg/lambda/OptionalDemo.java" />
         <option value="$PROJECT_DIR$/src/com/zxg/future/CompletableFutureTest.java" />
         <option value="$PROJECT_DIR$/src/com/zxg/algorithm/ArithmerticPractice_15.java" />
-        <option value="$PROJECT_DIR$/src/com/zxg/InterfacesDemo.java" />
         <option value="$PROJECT_DIR$/src/com/zxg/algorithm/sort/InsertionSortByLinkLedList.java" />
+        <option value="$PROJECT_DIR$/src/com/zxg/InterfacesDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/zxg/algorithm/LeetCode/PrimaryPractice/LeetCode_xx.java" />
+        <option value="$PROJECT_DIR$/src/com/zxg/algorithm/LeetCode/PrimaryPractice/LeetCode_160.java" />
+        <option value="$PROJECT_DIR$/src/com/zxg/algorithm/LeetCode/PrimaryPractice/LeetCode_1290.java" />
+        <option value="$PROJECT_DIR$/src/com/zxg/algorithm/LeetCode/PrimaryPractice/LeetCode_203.java" />
+        <option value="$PROJECT_DIR$/src/com/zxg/algorithm/LeetCode/LeetCode_83.java" />
+        <option value="$PROJECT_DIR$/src/com/zxg/algorithm/LeetCode/PrimaryPractice/LeetCode_mianshi24.java" />
+        <option value="$PROJECT_DIR$/src/com/zxg/algorithm/LeetCode/LinkList/LeetCode_143.java" />
+        <option value="$PROJECT_DIR$/src/com/zxg/algorithm/LeetCode/LinkList/ListNode.java" />
+        <option value="$PROJECT_DIR$/src/com/zxg/algorithm/LeetCode/LinkList/LeetCode_147.java" />
+        <option value="$PROJECT_DIR$/src/com/zxg/algorithm/LeetCode/Stack/LeetCode_mianshi0304.java" />
+        <option value="$PROJECT_DIR$/src/com/zxg/algorithm/LeetCode/Stack/LeetCode_682.java" />
+        <option value="$PROJECT_DIR$/src/com/zxg/algorithm/LeetCode/Stack/Practice_1.java" />
+        <option value="$PROJECT_DIR$/src/com/zxg/algorithm/LeetCode/Stack/LeetCode_84.java" />
+        <option value="$PROJECT_DIR$/src/com/zxg/algorithm/LeetCode/Stack/LeetCode_901.java" />
+        <option value="$PROJECT_DIR$/src/com/zxg/algorithm/LeetCode/Stack/LeetCode_739.java" />
+        <option value="$PROJECT_DIR$/src/com/zxg/algorithm/LeetCode/Stack/LeetCode_1047.java" />
+        <option value="$PROJECT_DIR$/src/com/zxg/algorithm/LeetCode/LinkList/LeetCode_mianshi24.java" />
+        <option value="$PROJECT_DIR$/src/com/zxg/algorithm/LeetCode/Stack/LeetCode_394.java" />
+        <option value="$PROJECT_DIR$/src/com/zxg/algorithm/LeetCode/Stack/LeetCode_636.java" />
+        <option value="$PROJECT_DIR$/src/com/zxg/datastructure/Tree/avltree/AVLNode.java" />
+        <option value="$PROJECT_DIR$/src/com/zxg/datastructure/Tree/RBTree/RBTree.java" />
       </list>
     </option>
   </component>
@@ -255,11 +254,11 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="-308" />
-    <option name="y" value="-975" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-13" />
+    <option name="y" value="23" />
     <option name="width" value="1280" />
-    <option name="height" value="722" />
+    <option name="height" value="727" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -301,7 +300,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="zxg" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="datastructure" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="datastrutctureandalgorithm" type="b2602c69:ProjectViewProjectNode" />
@@ -309,8 +308,55 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="zxg" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="sort" type="462c0819:PsiDirectoryNode" />
+              <item name="datastructure" type="462c0819:PsiDirectoryNode" />
+              <item name="linklist" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="datastrutctureandalgorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="datastrutctureandalgorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="zxg" type="462c0819:PsiDirectoryNode" />
+              <item name="datastructure" type="462c0819:PsiDirectoryNode" />
+              <item name="Tree" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="datastrutctureandalgorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="datastrutctureandalgorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="zxg" type="462c0819:PsiDirectoryNode" />
+              <item name="datastructure" type="462c0819:PsiDirectoryNode" />
+              <item name="Tree" type="462c0819:PsiDirectoryNode" />
+              <item name="avltree" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="datastrutctureandalgorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="datastrutctureandalgorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="zxg" type="462c0819:PsiDirectoryNode" />
+              <item name="datastructure" type="462c0819:PsiDirectoryNode" />
+              <item name="Tree" type="462c0819:PsiDirectoryNode" />
+              <item name="binarysearchtree" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="datastrutctureandalgorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="datastrutctureandalgorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="zxg" type="462c0819:PsiDirectoryNode" />
+              <item name="datastructure" type="462c0819:PsiDirectoryNode" />
+              <item name="Tree" type="462c0819:PsiDirectoryNode" />
+              <item name="RBTree" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="datastrutctureandalgorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="datastrutctureandalgorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="zxg" type="462c0819:PsiDirectoryNode" />
+              <item name="FingerOffer" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="datastrutctureandalgorithm" type="b2602c69:ProjectViewProjectNode" />
@@ -379,8 +425,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -417,61 +463,61 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CompletableFutureTest">
+  <component name="RunManager" selected="Application.LeetCode_636">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
-    <configuration name="AlgorithmPractice_16" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zxg.algorithm.AlgorithmPractice_16" />
+    <configuration name="LeetCode_1047" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zxg.algorithm.LeetCode.Stack.LeetCode_1047" />
       <module name="datastrutctureandalgorithm" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zxg.algorithm.*" />
+          <option name="PATTERN" value="com.zxg.algorithm.LeetCode.Stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="CompletableFutureTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zxg.future.CompletableFutureTest" />
+    <configuration name="LeetCode_636" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zxg.algorithm.LeetCode.Stack.LeetCode_636" />
       <module name="datastrutctureandalgorithm" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zxg.future.*" />
+          <option name="PATTERN" value="com.zxg.algorithm.LeetCode.Stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="FunctionalInterfaceDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zxg.lambda.FunctionalInterfaceDemo" />
+    <configuration name="LeetCode_739" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zxg.algorithm.LeetCode.Stack.LeetCode_739" />
       <module name="datastrutctureandalgorithm" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zxg.lambda.*" />
+          <option name="PATTERN" value="com.zxg.algorithm.LeetCode.Stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="LeetCode_121" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zxg.algorithm.LeetCode.PrimaryPractice.LeetCode_121" />
+    <configuration name="LeetCode_84" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zxg.algorithm.LeetCode.Stack.LeetCode_84" />
       <module name="datastrutctureandalgorithm" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zxg.algorithm.LeetCode.PrimaryPractice.*" />
+          <option name="PATTERN" value="com.zxg.algorithm.LeetCode.Stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="LeetCode_53" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zxg.algorithm.LeetCode.PrimaryPractice.LeetCode_53" />
+    <configuration name="LeetCode_901" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zxg.algorithm.LeetCode.Stack.LeetCode_901" />
       <module name="datastrutctureandalgorithm" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zxg.algorithm.LeetCode.PrimaryPractice.*" />
+          <option name="PATTERN" value="com.zxg.algorithm.LeetCode.Stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -518,19 +564,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.CompletableFutureTest" />
-      <item itemvalue="Application.LeetCode_53" />
-      <item itemvalue="Application.LeetCode_121" />
-      <item itemvalue="Application.FunctionalInterfaceDemo" />
-      <item itemvalue="Application.AlgorithmPractice_16" />
+      <item itemvalue="Application.LeetCode_901" />
+      <item itemvalue="Application.LeetCode_84" />
+      <item itemvalue="Application.LeetCode_739" />
+      <item itemvalue="Application.LeetCode_1047" />
+      <item itemvalue="Application.LeetCode_636" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CompletableFutureTest" />
-        <item itemvalue="Application.AlgorithmPractice_16" />
-        <item itemvalue="Application.FunctionalInterfaceDemo" />
-        <item itemvalue="Application.LeetCode_121" />
-        <item itemvalue="Application.LeetCode_53" />
+        <item itemvalue="Application.LeetCode_636" />
+        <item itemvalue="Application.LeetCode_1047" />
+        <item itemvalue="Application.LeetCode_739" />
+        <item itemvalue="Application.LeetCode_901" />
+        <item itemvalue="Application.LeetCode_84" />
       </list>
     </recent_temporary>
   </component>
@@ -661,14 +707,21 @@
       <workItem from="1582855081284" duration="1731000" />
       <workItem from="1582971844621" duration="1580000" />
       <workItem from="1585470359819" duration="1925000" />
+      <workItem from="1589272070548" duration="10698000" />
+      <workItem from="1589611854786" duration="1820000" />
+      <workItem from="1589613685218" duration="8693000" />
+      <workItem from="1589794295748" duration="15998000" />
+      <workItem from="1590219054693" duration="15907000" />
+      <workItem from="1590803440772" duration="2158000" />
+      <workItem from="1591096610703" duration="3990000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="347985000" />
+    <option name="totallyTimeSpent" value="407249000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-311" y="-1080" width="2048" height="1080" extended-state="0" />
+    <frame x="0" y="23" width="1280" height="727" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -679,23 +732,23 @@
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5046875" side_tool="true" weight="0.3586207" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4953125" weight="0.14617941" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3294893" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4953125" weight="0.35914332" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3294893" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22681955" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25201938" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3296" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4984375" weight="0.3488372" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4984375" weight="0.34596375" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.34053156" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.33937398" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -738,165 +791,150 @@
           <properties />
           <option name="timeStamp" value="138" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/zxg/algorithm/LeetCode/LinkList/LeetCode_83.java</url>
+          <line>28</line>
+          <properties />
+          <option name="timeStamp" value="145" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/zxg/algorithm/LeetCode/LinkList/LeetCode_83.java</url>
+          <line>43</line>
+          <properties />
+          <option name="timeStamp" value="146" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/zxg/algorithm/LeetCode/Stack/Practice_1.java</url>
+          <line>13</line>
+          <properties />
+          <option name="timeStamp" value="154" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/zxg/algorithm/LeetCode/Stack/LeetCode_84.java</url>
+          <line>20</line>
+          <properties />
+          <option name="timeStamp" value="155" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/zxg/algorithm/LeetCode/Stack/LeetCode_901.java</url>
+          <line>42</line>
+          <properties />
+          <option name="timeStamp" value="158" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/zxg/algorithm/LeetCode/Stack/LeetCode_739.java</url>
+          <line>9</line>
+          <properties />
+          <option name="timeStamp" value="160" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="142" />
+      <option name="time" value="161" />
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="result1" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/zxg/datastructure/Tree/base/BinaryTreeInterface.java">
+    <entry file="file://$PROJECT_DIR$/src/com/zxg/algorithm/sort/InsertionSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        <state relative-caret-position="483">
+          <caret line="23" column="39" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zxg/datastructure/Tree/binarysearchtree/BinarySearchTree.java">
+    <entry file="file://$PROJECT_DIR$/src/com/zxg/algorithm/sort/InsertionSortByLinkLedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+        <state relative-caret-position="378">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/src.zip!/java/util/concurrent/ArrayBlockingQueue.java">
+    <entry file="file://$PROJECT_DIR$/src/com/zxg/datastructure/linklist/ILinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1526">
-          <caret line="267" column="37" selection-start-line="267" selection-start-column="37" selection-end-line="267" selection-end-column="37" />
+        <state relative-caret-position="-491">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/src.zip!/java/util/concurrent/AbstractExecutorService.java">
+    <entry file="file://$PROJECT_DIR$/src/com/zxg/datastructure/linklist/HeadDoubleILinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="798">
-          <caret line="71" selection-start-line="71" selection-end-line="71" />
+        <state relative-caret-position="-273">
+          <caret line="183" column="22" selection-start-line="183" selection-start-column="22" selection-end-line="183" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/src.zip!/java/util/concurrent/Future.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/src.zip!/java/util/concurrent/RunnableFuture.java">
+    <entry file="file://$PROJECT_DIR$/src/com/zxg/algorithm/LeetCode/PrimaryPractice/LeetCode_2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="47" column="29" selection-start-line="47" selection-start-column="29" selection-end-line="47" selection-end-column="29" />
+        <state relative-caret-position="189">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/src.zip!/java/util/concurrent/FutureTask.java">
+    <entry file="file://$PROJECT_DIR$/src/com/zxg/algorithm/LeetCode/PrimaryPractice/LeetCode_12.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7539">
-          <caret line="396" column="37" selection-start-line="396" selection-start-column="37" selection-end-line="396" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/src.zip!/java/util/concurrent/Executors.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1785">
-          <caret line="126" column="23" selection-start-line="126" selection-start-column="23" selection-end-line="126" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/src.zip!/java/util/concurrent/ForkJoinPool.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="55251">
-          <caret line="2691" column="27" selection-start-line="2691" selection-start-column="27" selection-end-line="2691" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/src.zip!/java/lang/Thread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4683">
-          <caret line="264" selection-start-line="264" selection-end-line="264" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zxg/ArithmerticPractice_14.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="28" column="36" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zxg/FingerOffer/practice_1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
+        <state relative-caret-position="147">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zxg/encryption/AesDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/com/zxg/algorithm/AlgorithmPractice_2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
+        <state relative-caret-position="-17">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zxg/algorithm/ArithmerticPractice_12.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-80">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zxg/algorithm/ArithmerticPractice_8.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="20" column="44" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zxg/algorithm/ArithmerticPractice_13.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
           <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zxg/FingerOffer/practice_2.java">
+    <entry file="file://$PROJECT_DIR$/src/com/zxg/algorithm/LeetCode/PrimaryPractice/LeetCode_1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
+        <state relative-caret-position="84">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zxg/algorithm/Greedy/EquableCard.java">
+    <entry file="file://$PROJECT_DIR$/src/com/zxg/InterfacesDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+        <state relative-caret-position="903">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zxg/algorithm/backtrack/PackageQuestion.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/src.zip!/java/util/Set.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="945">
-          <caret line="45" column="36" selection-start-line="45" selection-start-column="36" selection-end-line="45" selection-end-column="36" />
+        <state relative-caret-position="466">
+          <caret line="224" column="12" selection-start-line="224" selection-start-column="12" selection-end-line="224" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zxg/algorithm/LeetCode/PrimaryPractice/LeetCode_35.java">
+    <entry file="file://$PROJECT_DIR$/src/com/zxg/algorithm/LeetCode/PrimaryPractice/LeetCode_234.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zxg/algorithm/DynamicProgram/HanoiTower/HanoiTower.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="882">
-          <caret line="42" column="31" selection-start-line="42" selection-start-column="31" selection-end-line="42" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zxg/algorithm/LeetCode/PrimaryPractice/LeetCode_53.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="27" column="32" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/jre/lib/rt.jar!/java/lang/String.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="23" column="15" selection-start-line="22" selection-start-column="14" selection-end-line="23" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/src.zip!/java/lang/Integer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17115">
-          <caret line="848" column="28" selection-start-line="848" selection-start-column="23" selection-end-line="848" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/src.zip!/java/lang/Class.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1071">
-          <caret line="118" column="18" selection-start-line="118" selection-start-column="13" selection-end-line="118" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46977">
-          <caret line="2314" column="19" selection-start-line="2314" selection-start-column="19" selection-end-line="2314" selection-end-column="19" />
+        <state relative-caret-position="336">
+          <caret line="16" column="15" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
         </state>
       </provider>
     </entry>
@@ -907,211 +945,262 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/src.zip!/java/util/function/Consumer.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/src.zip!/java/util/function/Predicate.java">
+    <entry file="file://$PROJECT_DIR$/src/com/zxg/algorithm/LeetCode/PrimaryPractice/LeetCode_17.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="39" column="17" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
+        <state relative-caret-position="-100">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/src.zip!/java/util/function/Supplier.java">
+    <entry file="file://$PROJECT_DIR$/src/com/zxg/algorithm/LeetCode/PrimaryPractice/LeetCode_20.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="42" column="7" selection-start-line="42" selection-start-column="7" selection-end-line="42" selection-end-column="7" />
+        <state relative-caret-position="-379">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/src.zip!/java/util/BitSet.java">
+    <entry file="file://$PROJECT_DIR$/src/com/zxg/algorithm/LeetCode/PrimaryPractice/LeetCode_3.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18333">
-          <caret line="911" column="16" selection-start-line="911" selection-start-column="16" selection-end-line="911" selection-end-column="16" />
+        <state relative-caret-position="294">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zxg/algorithm/AlgorithmPractice_16.java">
+    <entry file="file://$PROJECT_DIR$/src/com/zxg/algorithm/LeetCode/PrimaryPractice/LeetCode_9.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+        <state relative-caret-position="42">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/src.zip!/java/util/function/Function.java">
+    <entry file="file://$PROJECT_DIR$/src/com/zxg/algorithm/LeetCode/LinkList/LeetCode_160.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="40" column="4" selection-start-line="40" selection-start-column="4" selection-end-line="40" selection-end-column="4" />
+        <state relative-caret-position="273">
+          <caret line="15" column="9" selection-start-line="10" selection-start-column="6" selection-end-line="15" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zxg/lambda/FunctionalInterfaceDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/com/zxg/algorithm/LeetCode/LinkList/LeetCode_1290.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="20" column="11" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
+        <state relative-caret-position="504">
+          <caret line="26" column="40" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zxg/lambda/LambdaStudy.java">
+    <entry file="file://$PROJECT_DIR$/src/com/zxg/algorithm/LeetCode/LinkList/LeetCode_xx.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
-          <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+        <state relative-caret-position="483">
+          <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/src.zip!/java/util/Optional.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1827">
-          <caret line="119" column="34" selection-start-line="119" selection-start-column="34" selection-end-line="119" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="84">
-            <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zxg/lambda/OptionalDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="16" column="15" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/src.zip!/java/util/concurrent/CompletableFuture.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40215">
-          <caret line="1982" column="36" selection-start-line="1982" selection-start-column="36" selection-end-line="1982" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zxg/future/ForkJoinPoolTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zxg/future/CompletableFutureTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1344">
-          <caret line="66" selection-start-line="66" selection-end-line="66" />
-          <folding>
-            <element signature="e#523#524#0" expanded="true" />
-            <element signature="e#551#552#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zxg/algorithm/AlgorithmPractice_1.java">
+    <entry file="file://$PROJECT_DIR$/src/com/zxg/algorithm/LeetCode/LinkList/LeetCode_203.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zxg/algorithm/AlgorithmPractice_3.java">
+    <entry file="file://$PROJECT_DIR$/src/com/zxg/algorithm/LeetCode/LinkList/LeetCode_143.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        <state relative-caret-position="819">
+          <caret line="39" column="15" selection-start-line="39" selection-start-column="15" selection-end-line="39" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zxg/algorithm/AlgorithmPractice_2.java">
+    <entry file="file://$PROJECT_DIR$/src/com/zxg/datastructure/linklist/SingleLink.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        <state relative-caret-position="2982">
+          <caret line="142" column="20" selection-start-line="142" selection-start-column="20" selection-end-line="142" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zxg/algorithm/AlgorithmPractice_4.java">
+    <entry file="file://$PROJECT_DIR$/src/com/zxg/algorithm/LeetCode/LinkList/ListNode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zxg/algorithm/AlgorithmPractice_5.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zxg/algorithm/AlgorithmPractice_7.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zxg/algorithm/AlgorithmPractice_14.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zxg/algorithm/ArithmerticPractice_12.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        <state relative-caret-position="504">
+          <caret line="26" column="30" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/zxg/algorithm/ArithmerticPractice_15.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+        <state relative-caret-position="441">
+          <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zxg/algorithm/LeetCode/Stack/LeetCode_mianshi0304.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1071">
+          <caret line="51" selection-start-line="51" selection-end-line="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zxg/algorithm/LeetCode/Stack/Priactice_1.kt" />
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/src.zip!/java/util/Stack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="113" column="5" lean-forward="true" selection-start-line="113" selection-start-column="5" selection-end-line="113" selection-end-column="5" />
+          <folding>
+            <element signature="e#2838#2839#0" expanded="true" />
+            <element signature="e#2872#2873#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/src.zip!/java/util/Vector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="326" column="5" lean-forward="true" selection-start-line="326" selection-start-column="5" selection-end-line="326" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zxg/algorithm/LeetCode/Stack/LeetCode_84.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="43" column="28" selection-start-line="43" selection-start-column="27" selection-end-line="43" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zxg/algorithm/LeetCode/Stack/LeetCode_682.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zxg/algorithm/LeetCode/Stack/Practice_1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zxg/InterfacesDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="59" selection-start-line="59" selection-end-line="59" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zxg/algorithm/sort/Sort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zxg/algorithm/sort/InsertionSort.java">
+    <entry file="file://$PROJECT_DIR$/src/com/zxg/algorithm/LeetCode/Stack/LeetCode_739.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="483">
-          <caret line="23" column="39" lean-forward="true" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
+          <caret line="23" column="41" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zxg/algorithm/LeetCode/Stack/LeetCode_901.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1659">
+          <caret line="79" column="13" selection-start-line="79" selection-start-column="13" selection-end-line="79" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zxg/algorithm/LeetCode/Stack/LeetCode_1047.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zxg/algorithm/LeetCode/LinkList/LeetCode_83.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="777">
+          <caret line="42" column="23" selection-start-line="42" selection-start-column="23" selection-end-line="42" selection-end-column="23" />
           <folding>
-            <element signature="e#952#953#0" expanded="true" />
-            <element signature="e#1018#1019#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zxg/algorithm/sort/InsertionSortByLinkLedList.java">
+    <entry file="file://$PROJECT_DIR$/src/com/zxg/algorithm/LeetCode/LinkList/LeetCode_mianshi24.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zxg/algorithm/LeetCode/Stack/LeetCode_394.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="819">
+          <caret line="39" column="20" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zxg/algorithm/StringDeal/LongestPalindromel/Solution_1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="43" selection-start-line="3" selection-start-column="43" selection-end-line="3" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zxg/algorithm/LeetCode/Stack/LeetCode_636.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zxg/datastructure/Tree/binarysearchtree/BinarySearchTreeInterface.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
-          <caret line="4" column="56" selection-start-line="4" selection-start-column="56" selection-end-line="4" selection-end-column="56" />
-          <folding>
-            <element signature="e#131#132#0" expanded="true" />
-            <element signature="e#157#158#0" expanded="true" />
-            <element signature="e#243#244#0" expanded="true" />
-            <element signature="e#276#277#0" expanded="true" />
-          </folding>
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zxg/algorithm/DynamicProgram/PackageQuestion/Package_01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-66">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zxg/datastructure/Tree/base/BinaryNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zxg/datastructure/Tree/base/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zxg/datastructure/Tree/binarysearchtree/BinarySearchTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-494">
+          <caret line="17" column="50" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zxg/datastructure/Tree/avltree/AVLNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zxg/datastructure/Tree/avltree/AVLTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="63" column="10" lean-forward="true" selection-start-line="63" selection-start-column="10" selection-end-line="63" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zxg/datastructure/Tree/RBTree/RBTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="39">
+          <caret line="131" column="16" lean-forward="true" selection-start-line="131" selection-start-column="16" selection-end-line="131" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zxg/algorithm/LeetCode/LinkList/LeetCode_147.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="32" column="17" lean-forward="true" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
         </state>
       </provider>
     </entry>

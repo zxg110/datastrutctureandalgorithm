@@ -1,7 +1,12 @@
 package com.zxg.datastructure.Tree.RBTree;
 
-import sun.jvm.hotspot.utilities.RBNode;
-
+//https://www.cnblogs.com/skywang12345/p/3624343.html#a3
+//https://www.jianshu.com/p/e136ec79235c
+//https://zhuanlan.zhihu.com/p/79980618
+//https://www.cnblogs.com/lycroseup/p/7324229.html
+//https://www.cnblogs.com/skywang12345/p/3245399.html
+//https://zhuanlan.zhihu.com/p/103306156
+//https://www.jianshu.com/p/37c845a5add6
 public class RBTree<T extends Comparable<T>> {
     private RBTNode<T> mRoot;    // 根结点
 
@@ -78,7 +83,7 @@ public class RBTree<T extends Comparable<T>> {
     }
 
     /**
-     * 右旋示意图(对节点y进行左旋)：
+     * 右旋示意图(对节点y进行右旋)：
      *              py                               py
      *             /                                /
      *            y                                x
@@ -138,7 +143,28 @@ public class RBTree<T extends Comparable<T>> {
         insert(node);
     }
 
+    private RBTNode parentOf(RBTNode<T> node) {
+        return node == null ? null : node.parent;
+    }
+
+    private boolean isRed(RBTNode<T> node) {
+        return ((node != null) && (node.color == RED)) ? true : false;
+    }
+
+    private boolean isBlack(RBTNode<T> node) {
+        return !isRed(node);
+    }
+
+    /**
+     * 插入后的修复操作
+     * @param node
+     */
     private void insertFixup(RBTNode<T> node){
+        //当前节点的父节点
+        RBTNode<T> parent;
+        //当前节点的祖父节点
+        RBTNode<T> gparent;
+
 
     }
 
